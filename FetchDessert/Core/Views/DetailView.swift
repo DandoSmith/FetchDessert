@@ -84,7 +84,7 @@ extension DetailView {
                 Spacer()
             }
             Text("\(vm.dessertDetails?.filteredInstructions ?? "Description cannot be found.")")
-                .lineSpacing(6)
+                .lineSpacing(5)
         }
         .padding(.horizontal)
 
