@@ -20,10 +20,10 @@ struct YouTubeButton: View {
                             .frame(maxWidth: .infinity)
                             .frame(height: 50)
                         HStack{
-                            Image(systemName: "play.rectangle.fill")
+                            Image(systemName: "play.circle.fill")
                                 .resizable()
                                 .foregroundStyle(Color.white)
-                                .frame(width: 35, height: 25)
+                                .frame(width: 25, height: 25)
                             Text("Open YouTube")
                                 .foregroundStyle(Color.white)
                                 .font(.headline)
