@@ -149,10 +149,10 @@
 		07A910FF2C2D624800BFA982 /* etc */ = {
 			isa = PBXGroup;
 			children = (
-				07C513EC2C2F1FBA003D27A9 /* Extensions */,
-				0710AE932C2D4CF100780844 /* NetworkManager.swift */,
-				076405B32C2D6F6500E75DA5 /* ViewModifiers.swift */,
 				0710AE7D2C2C8BE400780844 /* Dev.swift */,
+				076405B32C2D6F6500E75DA5 /* ViewModifiers.swift */,
+				0710AE932C2D4CF100780844 /* NetworkManager.swift */,
+				07C513EC2C2F1FBA003D27A9 /* Extensions */,
 			);
 			path = etc;
 			sourceTree = "<group>";
