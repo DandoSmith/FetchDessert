@@ -76,11 +76,11 @@ extension DetailView {
     private var Instructions: some View {
         VStack{
             HStack(spacing: 0) {
-                Text("Instructions ")
-                    .detailViewCategoryTitleFormat()
-                    .padding(.vertical, 5)
                 SwiftUI.Image(systemName: "checklist.checked")
                     .font(.title3)
+                Text(" Instructions")
+                    .detailViewCategoryTitleFormat()
+                    .padding(.vertical, 5)
                 Spacer()
             }
             Text("\(vm.dessertDetails?.filteredInstructions ?? "Description cannot be found.")")
@@ -93,11 +93,11 @@ extension DetailView {
     private var Ingredients: some View {
         VStack {
             HStack(spacing: 0) {
-                Text("Ingredients ")
-                    .detailViewCategoryTitleFormat()
-                    .padding(.vertical, 5)
                 SwiftUI.Image(systemName: "cart.fill")
                     .font(.title3)
+                Text(" Ingredients ")
+                    .detailViewCategoryTitleFormat()
+                    .padding(.vertical, 5)
                 Spacer()
             }
             
