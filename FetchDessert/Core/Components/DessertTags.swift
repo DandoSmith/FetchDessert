@@ -16,7 +16,6 @@ struct DessertTags: View {
             .frame(width: 120, height: 40)
             .overlay(
                 Text("#" + tagText)
-                    .foregroundStyle(.accent)
                     .font(.subheadline)
             )
     }

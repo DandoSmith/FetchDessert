@@ -20,12 +20,13 @@ struct DessertRowView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                 Text(dessert.mealName)
                     .font(.title2)
-                    .foregroundStyle(Color.theme.accent)
                     .fontWeight(.medium)
+                    .foregroundStyle(.primaryText)
                     .multilineTextAlignment(.leading)
                 Spacer()
                 Image(systemName: "chevron.right")
                     .padding()
+                    .foregroundStyle(.primaryText)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
         }

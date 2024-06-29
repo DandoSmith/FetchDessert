@@ -16,8 +16,8 @@ struct WebPageIcon: View {
                 Link(destination: url) {
                     Image(systemName: "safari")
                         .resizable()
-                        .foregroundColor(.cyan)
-                        .fontWeight(.bold)
+                        .foregroundColor(.accentColor)
+                        .fontWeight(.semibold)
                 }
             } else {
                 Image(systemName: "safari")
